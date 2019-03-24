@@ -1,0 +1,76 @@
+body{
+    background-image: url(img/Basketball-Court-Wallpaper-Full-HD.jpg);
+    background-size: cover;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkslategray;
+    text-transform: uppercase;
+}
+
+li{
+    float: left;
+    padding-left: 90px;
+}
+
+li a{
+    display: inline-block;
+    color: crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+h1{
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 7px;
+    font-size: 35px;
+    background-color: #960018;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+
+a{
+    color: wheat;
+    margin: 30px;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+h2{
+    background-color: aliceblue;
+    letter-spacing: normal;
+    color: black;
+    font-family: monospace;
+}
+
+.open{
+    display: block;
+    color: black;
+    background-color: darkgrey;
+    letter-spacing: normal;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer{
+    background-color: #960018;
+    color: black;
+    text-align: center;
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 20px;

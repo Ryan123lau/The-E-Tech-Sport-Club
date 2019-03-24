@@ -1,0 +1,189 @@
+<!-- Ryan Lau Pick Yang 20DNS17F1007 -->
+<!DOCTYPE html>
+<html lang="">
+    <script>alert("Join us for heathly life")</script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The E-Tech Sport Club</title>
+    <link href="amenities.css" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+    
+    <header><img src="img/logon.jpg" alt="logo" style="margin: 0 auto 0 auto; display: block;"
+    width="200" height="200"></header><br>
+     <b>
+    <ul>
+       
+    <li><a href="intro.html">Home</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li><a href="amenities.html">Amenities</a></li>
+    <li><a href="location.html">Location</a></li>
+    <Li><a href="review.html">Review</a></Li>
+        
+    </ul>
+     </b>    
+    <br>
+ <center>   
+<div class="content" style="max-width: 600px">
+    
+    <img class="Game" src="img/game%20room.jpg" style="width: 100%">
+    <img class="Game" src="img/7028068-resort-swimming-pool.jpg" style="width: 100%">
+    <img class="Game" src="img/gym.jpg" style="width: 100%">
+    <img class="Game" src="img/tennis%20court.jpeg" style="width: 100%">  
+</div>
+   </center> 
+    <div>
+     <b><center>
+    <h1>Gameroom</h1>
+    <a>Video games, interactive games, a bowling lane, and shooting gallery are the main source of entertainment. Pool tables and ping pong tables are available for hourly rental.</a>
+        
+        
+    <br>
+        
+    <h1>Pools</h1>
+    <a>There are three pools on the E-Tech Sport Club Property. The Central Pool has a water slide, four hot-tubs, a waterfall, and shallow shelf foe small children. The River Pool is a flowing pools with side pools for relaxation.</a>
+    
+    <br>
+    
+    
+    <h1>Gym</h1>
+    
+    <a>The work out room at the E-Tech Sport Club overlooks the ocean. Exercise using treadmills, elliptical machines, stationary bicycles, weight machines, and free weights while enjoying a view of the beautiful white sand beach. Rise and shine exercise programs begin at 8am with pool aerobics and beach yoga.</a>
+    
+   <br>
+    
+   <h1>Tennis Courts</h1>
+    <a>The Tennis courts are located on top of the parking garage. There are five tennis courts and onr practices half court with a ball machine. Tennis balls and tennis lessons registration is available at the Sports Club activities desk.</a>
+    </center></b>
+</div><br>
+    
+    
+    <style>
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="img/game%20room.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/7028068-resort-swimming-pool.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/gym.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/tennis%20court.jpeg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+    
+<div class="footer">
+    <footer>
+        &copy; The E-Tech Sport Club<br> 
+        All Right Reserved
+        <br>
+        Contact Us: +60112511787 (24 hours)
+        <br>
+    </footer>
+    </div> 
+    
+    
+<script>
+        var slideIndex = 0;`    `
+        carousel();
+
+        function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Game");
+    for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+    }
+    slideIndex++; if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel,2000);
+    }
+    </script>    
+    
+    
+    
+    
+</body>
+</html>

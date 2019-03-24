@@ -1,0 +1,27 @@
+body{
+    background-image: url(img/Location_Sourcing.jpg);
+    background-size: cover;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkslategray;
+    text-transform: uppercase;
+}
+
+li{
+    float: left;
+    padding-left: 90px;
+}
+
+li a{
+    display: inline-block;
+    color: crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}

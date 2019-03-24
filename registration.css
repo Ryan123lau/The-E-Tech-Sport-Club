@@ -1,0 +1,88 @@
+body{
+    background-image: url(img/reserve.jpg);
+    background-size: cover;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkslategray;
+    text-transform: uppercase;
+}
+
+li{
+    float: left;
+    padding-left: 90px;
+}
+
+li a{
+    display: block;
+    color: crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+li a:hover{
+    background-color: darkblue;
+}
+
+input[type=text], [type=tel], [type=email], [type=date], select{
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form{
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: sans-serif;
+    color: white;
+}
+
+input[type=submit]{
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    margin: 2px 0;
+    margin-left: 940px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type=submit]:hover{
+    background-color: gray;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    letter-spacing: 7px;
+    font-size: 30px;
+    background-color: #960018;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: wheat;
+}
+
+p{
+    text-align: center;
+    margin: 50px;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+h3{
+    color: black;
+}
